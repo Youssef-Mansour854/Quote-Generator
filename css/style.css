@@ -1,0 +1,97 @@
+:root {
+    --background-color: #161A30;
+    --background-color-card: #31304D;
+    --text-color: #F0ECE5
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.container-fluid {
+    background-color: var(--background-color);
+}
+
+.card {
+    background-color: var(--background-color-card);
+    color: var(--text-color);
+}
+
+.main-icon {
+    color: var(--text-color);
+    font-size: 45px;
+}
+
+.quote-area {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: fit-content;
+    margin: 0 auto; 
+}
+
+.btn {
+    background-color: var(--text-color);
+    color: var(--background-color);
+    font-size: 19px;
+}
+
+.btn:hover {
+    border: 1px solid var(--text-color);
+}
+
+.quote-area {
+    display: flex;
+    justify-content: center;
+}
+
+.quote-area i {
+    font-size: 15px;
+}
+
+.quote-area i:first-child {
+    margin: 3px 10px 0 0;
+    align-self: flex-start; 
+    position: relative;
+    top: -5px;
+}
+
+.quote-area i:last-child {
+    position: relative;
+    bottom: -5px;
+    align-self: flex-end;
+    margin: 0 0 3px 10px;
+} 
+
+.quote-area .quote {
+    font-size: 26px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.image {
+    width: 80px;
+    margin: auto;
+}
+
+.image img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.btn {
+    margin: auto;
+}
+
+.card-footer {
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 500;
+}
